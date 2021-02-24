@@ -1,13 +1,11 @@
 # Repository for my talk at UCLA's DataFest 2021
 
-Brief Bio for Jeremy John Guinta
-
-# Data Scientist; Litigation Consultant; Statistical Expert; Machine Learning; Lecturer
+# Jeremy John Guinta - Data Scientist; Litigation Consultant; Statistical Expert; Machine Learning; Lecturer
 Jeremy has nearly 20 years’ experience in litigation consulting and complex data analysis.  He specializes in performing complex data analysis, including complex statistical procedures to develop trends and predictive analysis.  He also retains an expertise in machine learning and has developed machine learning processes to improve name matching and categorical descriptions of textual data. Over the course of his nearly 20-year career, Jeremy has developed and delivered training courses on Statistics, Data Management and Analysis, R programming, SQL programming, and Data Visualization.  Jeremy has authored articles on data privacy, data management, statistical analysis, and general areas of law when law, statistics, and data analysis intersect.   Jeremy also teaches a college level course in beginning and intermediate statistics at California State University Los Angeles. 
 
 www.linkedin.com/in/jeremyguinta  
 
-Program Description 
+# Program Description 
 
 This program is a two-part program that will discuss my theory of data graphics and discuss an introduction to machine learning.  Both parts of my talk will have hands on learning and programming using R and RStudio.  
 
@@ -17,5 +15,5 @@ Everyone wants to be able to tell a story, and persuasive storytelling is an imp
 
 # Machine Learning
 
-Machine Learning is a series of highly sophisicated statisitcal techniques that is hard to discern and even harder to implement correctly with meaning.  This program is is designed to break open the black box of Machine Learning, so participants can understand the basics of telling their story based on the data and the model, setting up their data, developing a training and testing dataset, validating their model, and, most importantll, explaining the meaning of their model to a wider audience. 
+Machine Learning is a series of highly sophisicated statisitcal techniques that is hard to discern and even harder to implement correctly with meaning.  This program is is designed to break open the black box of Machine Learning, so participants can understand the basics of telling their story based on the data and the model, setting up their data, developing a training and testing dataset, validating their model, and, most importantly, explaining the meaning of their model to a wider audience. This program will work through a very basic Machine Learning example using R. 
 
