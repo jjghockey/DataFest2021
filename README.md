@@ -17,3 +17,7 @@ Everyone wants to be able to tell a story, and persuasive storytelling is an imp
 
 Machine Learning is a series of highly sophisicated statisitcal techniques that is hard to discern and even harder to implement correctly with meaning.  This program is is designed to break open the black box of Machine Learning, so participants can understand the basics of telling their story based on the data and the model, setting up their data, developing a training and testing dataset, validating their model, and, most importantly, explaining the meaning of their model to a wider audience. This program will work through a very basic Machine Learning example using R. 
 
+# Software Requirements
+
+1. R (https://mran.microsoft.com/download) or (https://cran.r-project.org/bin/windows/base/) I prefer the mran version as it is optimized for multi-threading. It is not required for this program. 
+2. RStudio (https://rstudio.com/products/rstudio/download/) 
