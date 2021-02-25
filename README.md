@@ -28,7 +28,7 @@ indexes - Stock price indices taken from publicly available sources for
 
 miller_d - Stock price index for D preferred shares of Miller Energy (https://finance.yahoo.com/news/miller-energy-responds-notice-delisting-213036706.html) 
 
-UCI_Credit_Card.csv - Please use UCI_README
+UCI_Credit_Card.csv - Please see UCI_README
 
 # Software Requirements
 
