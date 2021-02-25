@@ -15,7 +15,17 @@ Everyone wants to be able to tell a story, and persuasive storytelling is an imp
 
 # Machine Learning
 
-Machine Learning is a series of highly sophisicated statisitcal techniques that is hard to discern and even harder to implement correctly with meaning.  This program is is designed to break open the black box of Machine Learning, so participants can understand the basics of telling their story based on the data and the model, setting up their data, developing a training and testing dataset, validating their model, and, most importantly, explaining the meaning of their model to a wider audience. This program will work through a very basic Machine Learning example using R. 
+Machine Learning is a series of highly sophisicated statisitcal techniques that is hard to discern and even harder to implement correctly with meaning.  This program is is designed to break open the black box of Machine Learning, so participants can understand the basics of telling their story based on the data and the model through visuals, setting up their data, developing a training and testing dataset, validating their model, and, most importantly, explaining the meaning of their model to a wider audience. This program will work through a very basic Machine Learning example using R. 
+
+# Data
+
+mtcars - Our favorite built in dataset from R
+indexes - Stock price indices taken from publicly available sources for 
+  NYSE (https://finance.yahoo.com/quote/%5ENYA?p=^NYA&.tsrc=fin-srch) 
+  Nasdaq (https://finance.yahoo.com/quote/%5EIXIC?p=^IXIC&.tsrc=fin-srch) 
+  Standard & Poors Preferred Stock (https://finance.yahoo.com/quote/%5ESPPREF/) 
+miller_d - Stock price index for D preferred shares of Miller Energy (https://finance.yahoo.com/news/miller-energy-responds-notice-delisting-213036706.html) 
+UCI_Credit_Card.csv - Please use UCI_README
 
 # Software Requirements
 
