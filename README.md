@@ -21,9 +21,9 @@ Machine Learning is a series of highly sophisicated statisitcal techniques that 
 
 mtcars - Our favorite built in dataset from R
 indexes - Stock price indices taken from publicly available sources for 
-  NYSE (https://finance.yahoo.com/quote/%5ENYA?p=^NYA&.tsrc=fin-srch) 
-  Nasdaq (https://finance.yahoo.com/quote/%5EIXIC?p=^IXIC&.tsrc=fin-srch) 
-  Standard & Poors Preferred Stock (https://finance.yahoo.com/quote/%5ESPPREF/) 
+  1. NYSE (https://finance.yahoo.com/quote/%5ENYA?p=^NYA&.tsrc=fin-srch) 
+  2. Nasdaq (https://finance.yahoo.com/quote/%5EIXIC?p=^IXIC&.tsrc=fin-srch) 
+  3. Standard & Poors Preferred Stock (https://finance.yahoo.com/quote/%5ESPPREF/) 
 miller_d - Stock price index for D preferred shares of Miller Energy (https://finance.yahoo.com/news/miller-energy-responds-notice-delisting-213036706.html) 
 UCI_Credit_Card.csv - Please use UCI_README
 
