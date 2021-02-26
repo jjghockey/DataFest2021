@@ -19,7 +19,7 @@ Machine Learning is a series of highly sophisicated statisitcal techniques that 
 
 # Data
 
-mtcars - Our favorite built in dataset from R
+mtcars - Our favorite built-in dataset from R
 
 indexes - Stock price indices taken from publicly available sources for 
   1. NYSE (https://finance.yahoo.com/quote/%5ENYA?p=^NYA&.tsrc=fin-srch) 
