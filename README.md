@@ -1,6 +1,6 @@
 # Repository for my talk at UCLA's DataFest 2021
 
-# Jeremy John Guinta - Data Scientist; Litigation Consultant; Statistical Expert; Machine Learning; Lecturer
+# Jeremy Guinta - Data Scientist; Litigation Consultant; Statistical Expert; Machine Learning; Lecturer
 Jeremy has nearly 20 years’ experience in litigation consulting and complex data analysis.  He specializes in performing complex data analysis, including complex statistical procedures to develop trends and predictive analysis.  He also retains an expertise in machine learning and has developed machine learning processes to improve name matching and categorical descriptions of textual data. Over the course of his nearly 20-year career, Jeremy has developed and delivered training courses on Statistics, Data Management and Analysis, R programming, SQL programming, and Data Visualization.  Jeremy has authored articles on data privacy, data management, statistical analysis, and general areas of law when law, statistics, and data analysis intersect.   Jeremy also teaches a college level course in beginning and intermediate statistics at California State University Los Angeles. 
 
 www.linkedin.com/in/jeremyguinta  
