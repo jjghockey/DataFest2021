@@ -393,9 +393,6 @@ trn<-trn[is.na(m.y)==TRUE, ] #70% for Training
 	plt<-plt+theme(panel.grid.major = element_line(color="white"))
 	graph8<-plt+coord_flip()	
 
-#ggsave(file="./plot1.png", grid.arrange(graph1,graph2,graph3,graph6, ncol=2, top=textGrob("Demographics and Default", gp=gpar(fontsize=15))), height=8, width=11)
-#ggsave(file="./plot2.png", grid.arrange(graph4,graph5,graph7,graph8, ncol=2, top=textGrob("Payments and Default", gp=gpar(fontsize=15))), height=8, width=11)
-
 #E. Modeling
 mod1<-glm(default.payment.next.month~LIMIT_BAL+num_timely+avg_pay+sum_pay+avg_payment+avg_bill+SEX+EDUC+MAR+AGE+throughput+bill_ratio+paid_spent_ratio, family="binomial", data=trn)
 
@@ -405,35 +402,8 @@ var_imp[Sign=="NEG", Importance:=Importance* -1]
 var_imp[, Variable:=fct_reorder(Variable, Importance)]
 var_imp
 
-           # Variable Importance Sign
- # 1:         avg_pay 38.1165514  POS
- # 2:      num_timely 23.9596661  POS
- # 3:     avg_payment -6.3341372  NEG
- # 4:       LIMIT_BAL -6.2453113  NEG
- # 5:       EDUCOther -3.9360986  NEG
- # 6:       MARSingle -3.9358990  NEG
- # 7:      throughput  3.3524408  POS
- # 8:        avg_bill -3.1670122  NEG
- # 9:      bill_ratio  3.1033397  POS
-# 10:         SEXmale  2.8733023  POS
-# 11:             AGE  1.6006443  POS
-# 12:        MAROther -1.0078689  NEG
-# 13: EDUCHigh School -0.2590258  NEG
-# 14:  EDUCUniversity -0.1681679  NEG
-
 mod2<-glm(default.payment.next.month~LIMIT_BAL+num_timely+avg_pay+avg_payment, family="binomial", data=trn)
 anova(mod2, mod1)
-
-# Analysis of Deviance Table
-
-# Model 1: default.payment.next.month ~ LIMIT_BAL + num_timely + avg_pay + 
-    # avg_payment
-# Model 2: default.payment.next.month ~ LIMIT_BAL + num_timely + avg_pay + 
-    # sum_pay + avg_payment + avg_bill + SEX + EDUC + MAR + AGE + 
-    # throughput + bill_ratio + paid_spent_ratio
-  # Resid. Df Resid. Dev Df Deviance
-# 1     20995      19590            
-# 2     20984      19451 11   138.92
 
 #F. Validation
 pred1<-predict(mod2, newdata=trn, type="response")
@@ -475,8 +445,5 @@ mod1_plt2<-mod1_plt2+labs(x="False Positive Rate", y="True Positive Rate", title
 mod1_plt2<-mod1_plt2+geom_abline(intercept=0, color="red")
 mod1_plt2<-mod1_plt2+annotate("text", x=0.90, y=0.10, label=paste("AUC: ", auc*100, "%"))
 conf2<-confusion_matrix(mod2, DATA=tst)
-
-write.csv(file="./conf2.csv", conf2)
-ggsave(file="./rocr2.png", mod1_plt2, height=8, width=11)
 
 
