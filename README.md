@@ -34,3 +34,7 @@ UCI_Credit_Card.csv - Please see UCI_README
 
 1. R (https://mran.microsoft.com/download) or (https://cran.r-project.org/bin/windows/base/) I prefer the mran version as it is optimized for multi-threading. It is not required for this program. 
 2. RStudio (https://rstudio.com/products/rstudio/download/) 
+
+# Scripting
+
+see 20210408_Script.r for R code for all of the PPTX graphics and machine learning walkthrough.  This code will auto-load all of the required packages. 
